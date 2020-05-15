@@ -1,0 +1,50 @@
+<footer class="home-footer">
+	<mat-toolbar color="primary">
+		<mat-toolbar-row  class="foot">
+			<div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="nowrap">
+				<div fxFlex="40" class="footer-box">
+					<h5 class="footer-box-title"><b>About Us</b></h5>
+					<p class="mat-body-2">
+						<strong>I am Not Fool Just Sick</strong> Because <br />Mental Sickness<br />
+						is just sickness and can be healed!
+					</p>
+					<button mat-raised-button color="accent">Contact Us</button>
+				</div>
+				<div fxFlex="30" class="footer-box">
+					<h5 class="footer-box-title"><b>Contact</b></h5>
+					<mat-list>
+						<mat-list-item>
+							<mat-icon mat-list-icon color="accent">email</mat-icon>
+							<h6 matLine><b>Email</b></h6>
+							<p matLine>contact@iamnotfooljustsick.com</p>
+						</mat-list-item>
+						<mat-list-item>
+							<mat-icon mat-list-icon color="accent">location_on</mat-icon>
+							<h6 matLine><b>Adress</b></h6>
+							<p matLine>Topoban, Akhalia</p>
+							<p matLine>Sylhet 3114, BD</p>
+						</mat-list-item>
+					</mat-list>
+				</div>
+				<div fxFlex="30" class="footer-box">
+					<h5 class="footer-box-title"><b>Disclaimer</b></h5>
+					<p class="mat-body-2">
+						Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Officiis perferendis rem,<br> aut aliquam
+						neque nam?
+					</p>
+					<div class="socials pt-1">
+						<ul>
+						  <li><a href="" class="social-icon linkedin"></a></li>
+						  <li><a href="" class="social-icon twitter"></a></li>
+						  <li><a href="" class="social-icon facebook"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</mat-toolbar-row>
+		<mat-toolbar-row class="mat-elevation-z8">
+			<br>
+            <p class="mat-body center" i18n='copy-right|copy-right section of footer@@copy-right'>&copy; Copyright {{today | date:"yyyy"}} <strong>Team-220</strong> , All rights reserved</p>
+        </mat-toolbar-row>
+	</mat-toolbar>
+</footer>

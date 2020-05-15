@@ -1,0 +1,35 @@
+.mat-card .mat-card-content {
+	position: relative;
+	padding: 2rem;
+	min-height: 360px; /* Adjust height as your need*/
+}
+.mat-card .company-logo {
+	padding-bottom: 24px;
+}
+.mat-card .text {
+	position: relative;
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.64);
+	padding-bottom: 25px;
+	min-height: 240px;
+	margin: 0;
+}
+.mat-card .user-detail {
+	position: absolute;
+	bottom: 25px;
+	left: 32px;
+	right: 0;
+	margin: auto;
+}
+.mat-card .user-detail .user-photo {
+	float: left;
+	margin-right: 8px;
+}
+.mat-card .user-detail .user-title {
+	font-size: 1rem;
+	float: left;
+	width: calc(100% - 56px);
+}
+.mat-card .user-detail .user-subtitle {
+	float: left;
+}
