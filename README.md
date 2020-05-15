@@ -1,7 +1,7 @@
 barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/292178a7-2f85-4b07-a740-b1d0d27bc026/deploy-status)](https://app.netlify.com/sites/iamnotfooljustsick/deploys)
 
 ## About
 

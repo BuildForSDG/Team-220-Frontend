@@ -9,10 +9,10 @@
       <div fxFlex="33.33" *ngFor="let tm of testimonials" class="col s12 m6 l4 xl3">
           <mat-card class="p-0">
               <mat-card-content class="">
-                <img class="company-logo" [src]="tm.logo">
+                <img class="company-logo" [src]="tm.logo" alt="Logo of the care center of user-title">
                 <p class="text">{{tm.text}} <button mat-raised-button class="mat-accent">Read More</button></p>
                 <div class="user-detail">
-                  <span class="toolbar-avatar md user-photo"><img [src]="tm.photo" alt=""></span>
+                  <span class="toolbar-avatar md user-photo"><img [src]="tm.photo" alt="picture of user-title"></span>
                   <span class="user-title">{{tm.title}}</span>
                   <span class="user-subtitle text-muted">{{tm.subtitle}}</span>
                 </div>
