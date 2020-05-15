@@ -9,16 +9,16 @@ import { SharedModule } from './shared/shared.module';
 import { LayoutComponent } from './layout/layout.component';
 import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
-import { LandingComponent } from './landing/landing.component';
-import { OurServicesComponent } from './landing/OurServices/ourservices.component';
+import { LandingModule } from './landing/landing.module';
 
 @NgModule({
-	declarations: [AppComponent, LayoutComponent, LandingComponent, OurServicesComponent],
+	declarations: [AppComponent, LayoutComponent],
 	imports: [
 		BrowserModule,
 
 		CoreModule,
 		SharedModule,
+		LandingModule,
 
 		HttpClientModule,
 		AppRoutingModule,
