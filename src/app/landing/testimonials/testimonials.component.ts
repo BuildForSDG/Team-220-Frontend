@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
+import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
 	selector: 'app-testimonials',
@@ -17,8 +17,7 @@ export class TestimonialsComponent implements OnInit {
 			photo: 'assets/images/face-1.jpg',
 			text: `“Our society tends to regard as a sickness any mode of thought or behavior that is inconvenient for the system
 			 and this is plausible because when an individual doesn't fit into the system it causes pain to the individual as well
-			  as problems for the system. Thus the manipulation of an individual to adjust him to the system is seen as a cure for
-			   a sickness and therefore as good.”`,
+			  as problems for the system...”`,
 			title: 'Theodore Kaczynski',
 			subtitle: 'Recovering from Mental Disorder'
 		},
