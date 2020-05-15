@@ -15,27 +15,30 @@ export class TestimonialsComponent implements OnInit {
 		{
 			logo: 'assets/images/mock-logo-4.png',
 			photo: 'assets/images/face-1.jpg',
-			text: `“I’ve tried using different softwares. The computer is not my strong side.
-    There is excellent support behind DevEgret and people to walk you through it.
-    If you have any questions they’ll go over that and explain to you how to do that. ”`,
-			title: 'Jhone Doe',
-			subtitle: 'Product Manager'
+			text: `“Our society tends to regard as a sickness any mode of thought or behavior that is inconvenient for the system
+			 and this is plausible because when an individual doesn't fit into the system it causes pain to the individual as well
+			  as problems for the system. Thus the manipulation of an individual to adjust him to the system is seen as a cure for
+			   a sickness and therefore as good.”`,
+			title: 'Theodore Kaczynski',
+			subtitle: 'Recovering from Mental Disorder'
 		},
 		{
 			logo: 'assets/images/mock-logo-2.png',
 			photo: 'assets/images/face-2.jpg',
-			text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-			title: 'Adam Smith',
-			subtitle: 'CEO'
+			text: `"It is naively assumed that the fact that the majority of people share certain ideas and feelings proves the
+			 validity of these ideas and feelings. Nothing could be further from the truth. Consensual validation as such has no
+			  bearing on reason or mental health."`,
+			title: 'Jasmine Warga',
+			subtitle: 'Ancient Chronic Pain Patient'
 		},
 		{
 			logo: 'assets/images/mock-logo-3.png',
 			photo: 'assets/images/face-3.jpg',
-			text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-			title: 'Jhone White',
-			subtitle: 'Software Engineer'
+			text: `"The pain of severe depression is quite unimaginable to those who have not suffered it, and it kills in many
+			 instances because its anguish can no longer be borne. The prevention of many suicides will continue to be hindered
+			  until there is a general awareness of the nature of this pain."`,
+			title: 'William Styron',
+			subtitle: 'No more in Madness'
 		}
 	];
 

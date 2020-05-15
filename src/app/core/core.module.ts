@@ -29,7 +29,8 @@ import { LanguageToggleComponent } from './navigation/language-toggle/language-t
 		FlexLayoutModule,
 		HeaderComponent,
 		SidenavListComponent,
-		FooterComponent
+		FooterComponent,
+		FormsModule
 	]
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {
