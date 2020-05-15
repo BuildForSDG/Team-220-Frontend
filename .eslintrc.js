@@ -22,6 +22,23 @@ module.exports = {
 	},
 	rules: {
 		'comma-dangle': ['error', 'never'],
-		'no-param-reassign': ['error', { props: false }]
+		'no-param-reassign': ['error', { props: false }],
+		'import/extensions': [
+			'error',
+			'ignorePackages',
+			{
+				js: 'never',
+				jsx: 'never',
+				ts: 'never',
+				tsx: 'never'
+			}
+		],
+		'prettier/prettier': [
+			'error',
+			{
+				endOfLine: 'auto'
+			}
+		],
+		'prefer-destructuring': ['error', { object: true, array: false }]
 	}
 };

@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-select [(value)]='firstLanguage'>
+        <a *ngFor='let language of languages' href='{{language.code === "en" ? "/index.html" : "/" + language.code + "/index.html"}}'>
+            <mat-option [value]='language.code'>{{language.name}}</mat-option>
+        </a>
+    </mat-select>
+</mat-form-field>

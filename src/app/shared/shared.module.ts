@@ -6,23 +6,9 @@ import { MyOwnCustomMaterialModule } from './my-own-custom-material/my-own-custo
 import { CarouselModule } from './carousel/carousel.module';
 import { LanguagesListModule } from './languages-list/languages-list.module';
 
-
-
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    MyOwnCustomMaterialModule,
-    FlexLayoutModule,
-    CarouselModule,
-    LanguagesListModule
-  ],
-  exports: [
-    CommonModule,
-    MyOwnCustomMaterialModule,
-    FlexLayoutModule,
-    CarouselModule,
-    LanguagesListModule
-  ]
+	declarations: [],
+	imports: [CommonModule, MyOwnCustomMaterialModule, FlexLayoutModule, CarouselModule, LanguagesListModule],
+	exports: [CommonModule, MyOwnCustomMaterialModule, FlexLayoutModule, CarouselModule, LanguagesListModule]
 })
-export class SharedModule { }
+export class SharedModule {}

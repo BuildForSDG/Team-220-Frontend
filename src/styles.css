@@ -1,4 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files
+
+Prebuilt Themes :
+
+deeppurple-amber.css
+indigo-pink.css
+pink-bluegrey.css
+purple-green.css*/
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "m-modified.css";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* for sidenav to take a whole page */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+span.mat-form-field-label-wrapper {
+  top: -.4375em;
+}
+.mat-row:hover {
+  background-color: rgba(50,0,100,0.1);
+  cursor: pointer;
+}
