@@ -1,6 +1,6 @@
 barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/511596ade6fd452697016a287bb9d1e4)](https://app.codacy.com/gh/BuildForSDG/Team-220-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-220-Frontend&utm_campaign=Badge_Grade_Settings)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/292178a7-2f85-4b07-a740-b1d0d27bc026/deploy-status)](https://app.netlify.com/sites/iamnotfooljustsick/deploys)
 
 ## About
