@@ -23,7 +23,7 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 
 ## Usage
 
- How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
+How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
 ## Setup
 
@@ -33,7 +33,7 @@ After clonning the repo to your local machine and moving into the cloned folder,
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
 
-All tests should be written in the `__tests__' folder. There's a sample in there.
+All tests should be written in the `**tests**' folder. There's a sample in there.
 
 This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
 
@@ -54,10 +54,6 @@ List the team behind this project. Their names linked to their Github, LinkedIn,
 
 If this project sounds interesting to you and you'd like to contribute, thank you!
 First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-
- 1. area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
- 2. area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
- 3. area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
 
 ## Acknowledgements
 
