@@ -167,8 +167,8 @@ nav h1 {
 	border: 2px solid rgba(0, 0, 0, 0.55);
 	padding: 4px;
 	margin: 0 3px;
-	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 	transition: 0.4s;
+	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .myPoint li.active {
 	background: #6b6b6b;
