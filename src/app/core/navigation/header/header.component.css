@@ -1,9 +1,9 @@
 .navigation-items {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .mat-button.mat-button-base.active {
-    color: yellow;
+	color: yellow;
 }

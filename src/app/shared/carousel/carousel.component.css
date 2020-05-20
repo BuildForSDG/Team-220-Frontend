@@ -1,284 +1,284 @@
 .bannerStyle div {
-  background-color: #ccc;
-  background-size: cover !important;
-  height: 100%;
+	background-color: #ccc;
+	background-size: cover !important;
+	height: 100%;
 }
 
 .bannerStyle img {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .bannerStyle h1 {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.32);
-  color: white;
-  margin: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.32);
+	color: white;
+	margin: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tile {
-  min-height: 400px;
-  background-color: #ccc;
-  background-size: cover !important;
+	min-height: 400px;
+	background-color: #ccc;
+	background-size: cover !important;
 }
 
 .tile h3 {
-  font-size: 1.1vw;
-  font-style: italic;
-  vertical-align: middle;
-  display: inline-block;
-  text-align: center;
-  line-height: 140%;
-  color: white;
-  margin: 7%;
-  margin-bottom: 0px;
+	font-size: 1.1vw;
+	font-style: italic;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	line-height: 140%;
+	color: white;
+	margin: 7%;
+	margin-bottom: 0px;
 }
 .tile h2 {
-  font-size: 1.4vw;
-  font-style: normal;
-  font-weight: bold;
-  color: yellow;
-  vertical-align: top;
-  display: inline-block;
-  text-align: right;
-  line-height: normal;
-  margin: 1%;
-  margin-left: 75%;
+	font-size: 1.4vw;
+	font-style: normal;
+	font-weight: bold;
+	color: yellow;
+	vertical-align: top;
+	display: inline-block;
+	text-align: right;
+	line-height: normal;
+	margin: 1%;
+	margin-left: 75%;
 }
 .tile .quote {
-  min-height: 400px;
-  max-height: 400px;
-  line-height: 20px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.40);
+	min-height: 400px;
+	max-height: 400px;
+	line-height: 20px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
 }
 
 h4 {
-  margin: 0;
-  padding: 10px 15px;
-  text-align: center;
+	margin: 0;
+	padding: 10px 15px;
+	text-align: center;
 }
 
 p {
-  margin: 0;
-  padding: 0 15px 10px;
-  text-align: center;
+	margin: 0;
+	padding: 0 15px 10px;
+	text-align: center;
 }
 
 .wBg {
-  background: white;
+	background: white;
 }
 
 .container {
-  max-width: 100%;
-  margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 nav {
-  border-bottom: 1px solid #ccc;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: white;
-  z-index: 12;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: white;
+	z-index: 12;
 }
 
 nav h1 {
-  margin: 0;
-  padding: 10px;
-  text-align: center;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
 }
 
 .carBtn {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
-  border-radius: 999px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 999px;
 }
 
 .leftRs {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
-  border-radius: 999px;
-  left: 0;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 999px;
+	left: 0;
 }
 
 .rightRs {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
-  border-radius: 999px;
-  right: 0;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 999px;
+	right: 0;
 }
 
 .leftRs1 {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
-  border-radius: 999px;
-  right: 0;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 999px;
+	right: 0;
 }
 
 .rightRs1 {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
-  border-radius: 999px;
-  left: 0;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 999px;
+	left: 0;
 }
 
 .myPoint {
-  list-style-type: none;
-  text-align: center;
-  padding: 12px;
-  margin: 0;
-  white-space: nowrap;
-  overflow: auto;
-  box-sizing: border-box;
+	list-style-type: none;
+	text-align: center;
+	padding: 12px;
+	margin: 0;
+	white-space: nowrap;
+	overflow: auto;
+	box-sizing: border-box;
 }
 .myPoint li {
-  display: inline-block;
-  border-radius: 50%;
-  border: 2px solid rgba(0, 0, 0, 0.55);
-  padding: 4px;
-  margin: 0 3px;
-  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
-  transition: 0.4s;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid rgba(0, 0, 0, 0.55);
+	padding: 4px;
+	margin: 0 3px;
+	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+	transition: 0.4s;
 }
 .myPoint li.active {
-  background: #6b6b6b;
-  transform: scale(1.2);
+	background: #6b6b6b;
+	transform: scale(1.2);
 }
 
 .carouselHoved {
-  opacity: 0.4;
+	opacity: 0.4;
 }
 
 .myBannerPoint {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  padding: 0;
-  color: beige;
-  justify-content: center;
-  list-style-type: none;
-  background: rgba(0, 0, 0, 0.34);
-  margin: 0;
-  padding: 10px;
-  box-sizing: border-box;
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	color: beige;
+	justify-content: center;
+	list-style-type: none;
+	background: rgba(0, 0, 0, 0.34);
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
 }
 .myBannerPoint li {
-  background: #6b6b6b;
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
+	background: #6b6b6b;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
 }
 .myBannerPoint li .active {
-  transform: translateY(-10px);
-  transition: 0.3s ease all;
+	transform: translateY(-10px);
+	transition: 0.3s ease all;
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .tile {
-    min-height: 350px;
-    max-height: 350px;
-  }
+	.tile {
+		min-height: 350px;
+		max-height: 350px;
+	}
 
-  .tile h3 {
-    font-size: 1.5vw;
-    line-height: normal;
-    margin: 2%;
-    margin-bottom: 15px;
-  }
-  .tile h2 {
-    font-size: 1.7vw;
-    line-height: 20px;
-    margin: 9%;
-    margin-top: 2%;
-    margin-left: 70%;
-  }
-  .tile .quote {
-    min-height: 350px;
-    max-height: 350px;
-    line-height: 300px;
-  }
+	.tile h3 {
+		font-size: 1.5vw;
+		line-height: normal;
+		margin: 2%;
+		margin-bottom: 15px;
+	}
+	.tile h2 {
+		font-size: 1.7vw;
+		line-height: 20px;
+		margin: 9%;
+		margin-top: 2%;
+		margin-left: 70%;
+	}
+	.tile .quote {
+		min-height: 350px;
+		max-height: 350px;
+		line-height: 300px;
+	}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .tile {
-    min-height: 300px;
-    max-height: 300px;
-  }
+	.tile {
+		min-height: 300px;
+		max-height: 300px;
+	}
 
-  .tile h3 {
-    font-size: 1.9vw;
-    line-height: normal;
-    margin: 2%;
-    margin-bottom: 15px;
-  }
-  .tile h2 {
-    font-size: 2.2vw;
-    line-height: 20px;
-    margin: 9%;
-    margin-top: 2%;
-    margin-left: 73%;
-  }
-  .tile .quote {
-    min-height: 300px;
-    max-height: 300px;
-    line-height: 250px;
-  }
-  .carBtn {
-    width: 45px;
-    height: 45px;
-  }
+	.tile h3 {
+		font-size: 1.9vw;
+		line-height: normal;
+		margin: 2%;
+		margin-bottom: 15px;
+	}
+	.tile h2 {
+		font-size: 2.2vw;
+		line-height: 20px;
+		margin: 9%;
+		margin-top: 2%;
+		margin-left: 73%;
+	}
+	.tile .quote {
+		min-height: 300px;
+		max-height: 300px;
+		line-height: 250px;
+	}
+	.carBtn {
+		width: 45px;
+		height: 45px;
+	}
 
-  .leftRs {
-    width: 45px;
-    height: 45px;
-  }
+	.leftRs {
+		width: 45px;
+		height: 45px;
+	}
 
-  .rightRs {
-    width: 45px;
-    height: 45px;
-  }
+	.rightRs {
+		width: 45px;
+		height: 45px;
+	}
 
-  .leftRs1 {
-    width: 45px;
-    height: 45px;
-  }
+	.leftRs1 {
+		width: 45px;
+		height: 45px;
+	}
 
-  .rightRs1 {
-    width: 45px;
-    height: 45px;
-  }
+	.rightRs1 {
+		width: 45px;
+		height: 45px;
+	}
 }
 
 /*
@@ -287,103 +287,101 @@ nav h1 {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .tile {
-    min-height: 250px;
-    max-height: 250px;
-  }
+	.tile {
+		min-height: 250px;
+		max-height: 250px;
+	}
 
-  .tile h3 {
-    font-size: 2.0vw;
-    line-height: normal;
-    margin: 3%;
-    margin-bottom: 10px;
-  }
-  .tile h2 {
-    font-size: 2.5vw;
-    line-height: 20px;
-    margin: 8%;
-    margin-top: 2%;
-    margin-left: 72%;
-  }
-  .tile .quote {
-    min-height: 250px;
-    max-height: 250px;
-    line-height: 175px;
-  }
-  .carBtn {
-    width: 35px;
-    height: 35px;
-  }
+	.tile h3 {
+		font-size: 2vw;
+		line-height: normal;
+		margin: 3%;
+		margin-bottom: 10px;
+	}
+	.tile h2 {
+		font-size: 2.5vw;
+		line-height: 20px;
+		margin: 8%;
+		margin-top: 2%;
+		margin-left: 72%;
+	}
+	.tile .quote {
+		min-height: 250px;
+		max-height: 250px;
+		line-height: 175px;
+	}
+	.carBtn {
+		width: 35px;
+		height: 35px;
+	}
 
-  .leftRs {
-    width: 35px;
-    height: 35px;
-  }
+	.leftRs {
+		width: 35px;
+		height: 35px;
+	}
 
-  .rightRs {
-    width: 35px;
-    height: 35px;
-  }
+	.rightRs {
+		width: 35px;
+		height: 35px;
+	}
 
-  .leftRs1 {
-    width: 35px;
-    height: 35px;
-  }
+	.leftRs1 {
+		width: 35px;
+		height: 35px;
+	}
 
-  .rightRs1 {
-    width: 35px;
-    height: 35px;
-  }
-
+	.rightRs1 {
+		width: 35px;
+		height: 35px;
+	}
 }
 
 @media (max-width: 480px) {
-  .tile {
-    min-height: 200px;
-  }
+	.tile {
+		min-height: 200px;
+	}
 
-  .tile h3 {
-    font-size: 2.5vw;
-    line-height: 10px;
-    color: white;
-    margin: 2%;
-    margin-bottom: 10px;
-  }
-  .tile h2 {
-    font-size: 2.9vw;
-    line-height: 10px;
-    margin: 7%;
-    margin-top: 0%;
-    margin-left: 70%;
-  }
-  .tile .quote {
-    min-height: 200px;
-    max-height: 200px;
-    line-height: 150px;
-  }
-  .carBtn {
-    width: 25px;
-    height: 25px;
-  }
+	.tile h3 {
+		font-size: 2.5vw;
+		line-height: 10px;
+		color: white;
+		margin: 2%;
+		margin-bottom: 10px;
+	}
+	.tile h2 {
+		font-size: 2.9vw;
+		line-height: 10px;
+		margin: 7%;
+		margin-top: 0%;
+		margin-left: 70%;
+	}
+	.tile .quote {
+		min-height: 200px;
+		max-height: 200px;
+		line-height: 150px;
+	}
+	.carBtn {
+		width: 25px;
+		height: 25px;
+	}
 
-  .leftRs {
-    width: 25px;
-    height: 25px;
-  }
+	.leftRs {
+		width: 25px;
+		height: 25px;
+	}
 
-  .rightRs {
-    width: 25px;
-    height: 25px;
-  }
+	.rightRs {
+		width: 25px;
+		height: 25px;
+	}
 
-  .leftRs1 {
-    width: 25px;
-    height: 25px;
-  }
+	.leftRs1 {
+		width: 25px;
+		height: 25px;
+	}
 
-  .rightRs1 {
-    width: 25px;
-    height: 25px;
-  }
-
+	.rightRs1 {
+		width: 25px;
+		height: 25px;
+	}
 }

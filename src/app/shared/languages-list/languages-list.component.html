@@ -1,5 +1,5 @@
 <mat-form-field class="reduceWidth">
-    <mat-label class="mat-small" i18n='Language|Language label@@language-label'>Language</mat-label>
+    <mat-label class="mat-small">Language</mat-label>
     <mat-select class="mat-small" [(value)]='selected'>
         <mat-option value="all" class="mat-small" (click)='filterBy(0)'>All</mat-option>
         <mat-option *ngFor="let language of languages" [value]="language.id" class="mat-small" (click)='filterBy(language.id)'>{{language.name}}</mat-option>

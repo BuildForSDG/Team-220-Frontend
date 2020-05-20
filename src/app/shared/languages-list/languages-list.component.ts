@@ -17,9 +17,10 @@ export class LanguagesListComponent implements OnInit {
 	@Output() filterByProperty = new EventEmitter<number>();
 
 	// eslint-disable-next-line @typescript-eslint/no-empty-function
-	ngOnInit() {}
+	ngOnInit(): void {}
 
-	filterBy(languageId) {
+	// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+	filterBy(languageId: number) {
 		this.filterByProperty.emit(languageId);
 	}
 }

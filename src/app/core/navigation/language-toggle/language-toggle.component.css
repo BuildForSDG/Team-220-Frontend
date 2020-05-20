@@ -1,18 +1,18 @@
 mat-form-field /deep/ .mat-form-field-underline {
-    display: none;
+	display: none;
 }
 
 mat-form-field /deep/ .mat-form-field-wrapper {
-    padding: 0;
+	padding: 0;
 }
 
 mat-form-field /deep/ .mat-form-field-infix {
-    width: 40px;
-    padding: 0;
-    font-size: 16px;
-    border-top: none;
+	width: 40px;
+	padding: 0;
+	font-size: 16px;
+	border-top: none;
 }
 
 a {
-    color: #000;
+	color: #000;
 }
