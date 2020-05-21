@@ -11,8 +11,7 @@
 	font-size: 1rem;
 	color: rgba(0, 0, 0, 0.64);
 	padding-bottom: 25px;
-	min-height: 240px;
-	margin: 0;
+	margin-bottom: 35px;
 }
 .mat-card .user-detail {
 	position: absolute;
@@ -32,4 +31,28 @@
 }
 .mat-card .user-detail .user-subtitle {
 	float: left;
+}
+
+@media screen and (max-width: 1400px) {
+	.mat-card .text {
+		margin-bottom: 45px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.mat-card .text {
+		margin-bottom: 65px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.mat-card .text {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.mat-card .text {
+		margin-bottom: 70px;
+	}
 }

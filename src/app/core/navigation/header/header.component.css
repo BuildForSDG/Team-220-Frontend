@@ -7,3 +7,46 @@
 .mat-button.mat-button-base.active {
 	color: yellow;
 }
+
+img {
+	max-width: 100%;
+}
+
+img#logo {
+	transition: width 0.5s;
+	max-width: 100%;
+}
+
+figure {
+	max-width: 3vw;
+	margin: 0rem;
+	padding: 0rem;
+}
+
+@media screen and (max-width: 1400px) {
+	img#logo {
+	  max-width: 4vw;
+	  width: 4vw;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	img#logo {
+	  max-width: 5vw;
+	  width: 5vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	img#logo {
+	  max-width: 9vw;
+	  width: 9vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	img#logo {
+	  max-width: 11vw;
+	  width: 11vw;
+	}
+}
