@@ -1,9 +1,10 @@
 {
-  "name": "iam-not-fool-just-sick",
+  "name": "iam-not-crazy-just-sick",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+	"start:prod": "ng build --prod && lite-server --baseDir dist/IamNotCrazyJustSick",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

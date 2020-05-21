@@ -1,7 +1,7 @@
-.nav-caption{
-  display: inline-block;
-  padding-left: 6px;
+.nav-caption {
+	display: inline-block;
+	padding-left: 6px;
 }
 .mat-list-item.active {
-  color: blueviolet;
+	color: blueviolet;
 }

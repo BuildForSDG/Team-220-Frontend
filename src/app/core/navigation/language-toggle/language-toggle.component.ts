@@ -12,7 +12,7 @@ export class LanguageToggleComponent implements OnInit, AfterViewInit {
 		{ name: 'Fr', code: 'fr' }
 	];
 
-	firstLanguage;
+	firstLanguage: string;
 
 	constructor(private router: Router) {}
 
