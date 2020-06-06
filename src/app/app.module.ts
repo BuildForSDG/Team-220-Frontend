@@ -10,6 +10,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { LandingModule } from './landing/landing.module';
+import { CentersModule } from './centers/centers.module';
 
 @NgModule({
 	declarations: [AppComponent, LayoutComponent],
@@ -19,6 +20,7 @@ import { LandingModule } from './landing/landing.module';
 		CoreModule,
 		SharedModule,
 		LandingModule,
+		CentersModule,
 
 		HttpClientModule,
 		AppRoutingModule,

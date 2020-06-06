@@ -1,0 +1,40 @@
+<div class="row">
+	<p class="flow-text" *ngIf="paginatedCenters == undefined" i18n>
+		Nothing to show here for now! Please, come back later.
+	</p>
+	<div *ngFor="let center of paginatedCenters" class="col s12 m6 l4 xl3">
+		<mat-card class="center-card" *ngIf="center != null">
+			<mat-card-header>
+				<img mat-card-avatar class="center-image" src="{{ center.image }}" />
+				<mat-card-title>{{ center.name }}</mat-card-title>
+				<mat-card-subtitle i18n>Type: <i>{{ center.type }}</i></mat-card-subtitle>
+				<button mat-icon-button color="primary" aria-label="button for viewing details of this center"
+					class="alignRight" matTooltip="details">
+					<mat-icon [routerLink]="['/centers', center.id, 'details']">pageview</mat-icon>
+				</button>
+			</mat-card-header>
+			<mat-divider></mat-divider>
+			<mat-card-content>
+				<p>
+					{{ center.description }}
+				</p>
+			</mat-card-content>
+			<mat-divider></mat-divider>
+			<mat-card-actions>
+				<button mat-flat-button color="accent" aria-label="button for sharing">
+					<mat-icon>share</mat-icon>
+				</button>
+				<button mat-icon-button color="warn" aria-label="button for reporting a problem with this center"
+					class="alignRight" matTooltip="report">
+					<mat-icon>info</mat-icon>
+				</button>
+			</mat-card-actions>
+		</mat-card>
+	</div>
+</div>
+<div>
+	<mat-paginator [length]="paginatorConfigurable.length" [pageSize]="paginatorConfigurable.pageSize"
+		[pageSizeOptions]="paginatorConfigurable.pageSizeOptions"
+		(page)="paginatorConfigurable.pageEvent = $event; onPaginatorChange($event)" showFirstLastButtons>
+	</mat-paginator>
+</div>
