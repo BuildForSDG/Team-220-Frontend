@@ -9,8 +9,8 @@
 				<mat-card-title>{{ center.name }}</mat-card-title>
 				<mat-card-subtitle i18n>Type: <i>{{ center.type }}</i></mat-card-subtitle>
 				<button mat-icon-button color="primary" aria-label="button for viewing details of this center"
-					class="alignRight" matTooltip="details">
-					<mat-icon [routerLink]="['/centers', center.id, 'details']">pageview</mat-icon>
+					class="alignRight"  [routerLink]="['/centers', center.id, 'details']" [disabled]="!isConnected">
+					<mat-icon matTooltip="details about center {{center.name}} {{ isConnected? '': 'But you need to be connected'}}">pageview</mat-icon>
 				</button>
 			</mat-card-header>
 			<mat-divider></mat-divider>

@@ -15,10 +15,13 @@ export class CentersGridComponent implements OnInit {
 
 	apiBaseUrl: string;
 
+	isConnected: boolean;
+
 	paginatedCenters: Center[];
 
 	ngOnInit() {
 		this.apiBaseUrl = environment.apiBaseUrl;
+		this.isConnected = false;
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {

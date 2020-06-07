@@ -16,6 +16,8 @@ export class CentersListComponent implements OnInit, OnChanges {
 
 	apiBaseUrl = environment.apiBaseUrl;
 
+	isConnected: boolean;
+
 	dataSource: MatTableDataSource<Center>;
 
 	@ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
@@ -26,6 +28,7 @@ export class CentersListComponent implements OnInit, OnChanges {
 
 	ngOnInit() {
 		this.displayedColumns = ['id', 'name', 'description'];
+		this.isConnected = false;
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {

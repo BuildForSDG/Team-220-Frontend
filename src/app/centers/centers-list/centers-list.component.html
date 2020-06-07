@@ -33,7 +33,9 @@
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;" [routerLink]="['/centers', row.id, 'details']"></tr>
+	<tr mat-row *matRowDef="let row; columns: displayedColumns;"
+	[routerLink]="isConnected? ['/centers', row.id, 'details'] : []"
+	matTooltip="You can click to see details about this center {{ isConnected? '': 'But you need to be connected'}}"></tr>
 
 </table>
 <mat-paginator [length]="paginatorConfigurable.length" [pageSize]="paginatorConfigurable.pageSize" [pageSizeOptions]="paginatorConfigurable.pageSizeOptions" (page)="paginatorConfigurable.pageEvent = $event;" showFirstLastButtons></mat-paginator>
