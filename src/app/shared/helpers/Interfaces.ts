@@ -37,3 +37,32 @@ export interface Topic {
 
 	quotes?: Quote[];
 }
+export interface Center {
+	id: number;
+	name: string;
+	type: string;
+	image: string;
+	description: string;
+	location: string;
+	phoneNumbers: string;
+	email: string;
+	website: string;
+	created_at: string;
+	updated_at: string;
+}
+export interface Professional {
+	id: number;
+	first_name: string;
+	last_name: string;
+	type: string;
+	image: string;
+	description: string;
+	location: string;
+	phoneNumbers: string;
+	email: string;
+	website: string;
+	created_at: string;
+	updated_at: string;
+
+	centerId: number;
+}
