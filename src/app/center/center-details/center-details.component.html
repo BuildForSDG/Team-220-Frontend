@@ -35,33 +35,33 @@
 	<mat-tab label="Contacts">
 		<form [formGroup]="options">
 			<mat-form-field appearance="standard">
-				<mat-label>Name</mat-label>
+				<mat-label i18n>Name</mat-label>
 				<input matInput readonly value="{{ center?.name }}" />
 			</mat-form-field>
 			<div class="mat-form-field">
 				<label>Type: </label>
 				<mat-radio-group [formControl]="floatLabelControl" [disabled]="true">
-					<mat-radio-button value="public">Public</mat-radio-button>
-					<mat-radio-button value="private">Private</mat-radio-button>
+					<mat-radio-button value="public" i18n>Public</mat-radio-button>
+					<mat-radio-button value="private" i18n>Private</mat-radio-button>
 				</mat-radio-group>
 			</div>
 			<mat-form-field appearance="legacy">
-				<mat-label>Location</mat-label>
+				<mat-label i18n>Location</mat-label>
 				<input matInput readonly value="{{ center?.location }}" />
 				<mat-icon matSuffix>location_on</mat-icon>
 			</mat-form-field>
 			<mat-form-field appearance="legacy">
-				<mat-label>Email</mat-label>
+				<mat-label i18n>Email Address</mat-label>
 				<input matInput readonly value="{{ center?.email }}" />
 				<mat-icon matSuffix>email</mat-icon>
 			</mat-form-field>
 			<mat-form-field appearance="filegacyll">
-				<mat-label>Website</mat-label>
+				<mat-label i18n>Website</mat-label>
 				<input matInput readonly value="{{ center?.website }}" />
 				<mat-icon matSuffix>web</mat-icon>
 			</mat-form-field>
 			<mat-form-field appearance="fill">
-				<mat-label>Phone Numbers</mat-label>
+				<mat-label i18n>Phone Numbers</mat-label>
 				<textarea matInput readonly value="{{ center?.phoneNumbers }}"></textarea>
 				<mat-icon matSuffix>phone</mat-icon>
 			  </mat-form-field>

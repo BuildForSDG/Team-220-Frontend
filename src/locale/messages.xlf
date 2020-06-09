@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="site-header" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+			<x id="START_TAG_FIGURE" ctype="x-figure" equiv-text="&lt;figure&gt;"/>
+				<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+			<x id="CLOSE_TAG_FIGURE" ctype="x-figure" equiv-text="&lt;/figure&gt;"/>
+		<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description"> Name of the site</note>
+        <note priority="1" from="meaning">Site title </note>
+      </trans-unit>
+      <trans-unit id="fd2cf27835a5f827a1f7f20ff7a8a92113852a89" datatype="html">
+        <source>
+					<x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>local_hospital<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/> Centers
+				</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3a4c8fe8e93a4db1d130507de57d0805518d815" datatype="html">
+        <source>
+					<x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>people<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/> Professionals
+				</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4614749904cbd472983624a632b3fee9f0d2a4d" datatype="html">
+        <source>
+					<x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>category<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/> Psychatric Emergencies
+				</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c471eb451539c723e2081d36fa3aed36084359cd" datatype="html">
+        <source>
+					<x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>format_quote<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/> Testimonies
+				</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb9d69fa73291369a40ea75cad446b474e624780" datatype="html">
+        <source>
+					<x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>person<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/> My Account<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+				</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/header/header.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="close-text" datatype="html">
+        <source> Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Close text</note>
+        <note priority="1" from="meaning">Close</note>
+      </trans-unit>
+      <trans-unit id="761c48fbb3f6d8f1a6e66e0a93f2879e7da5135c" datatype="html">
+        <source> Centers </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eea1067f4de8040be33fc2d7b28cff0f6caa258b" datatype="html">
+        <source> Psychatric Emergencies </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d953b749f70e79f990ff8921d196b4ca1e3cbc5a" datatype="html">
+        <source> Professionals </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="750ca7e1837b5616f2baba7aca619e3475d4245c" datatype="html">
+        <source> Testimonies </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2682e462c5ab4cfd4aa02a5a4f86344db0484ad6" datatype="html">
+        <source> My Account </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/sidenav-list/sidenav-list.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c4ebe306529f1135b7d46deb166a6470bd27671" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>About Us<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0631a9cd009eab06a66c1ba1c0825e6dae3f8a29" datatype="html">
+        <source>
+						<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>I am Not Crazy Just Sick<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> Because <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Mental Sickness<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+						is just sickness and can be healed!
+					</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcde8cc520e5438c374949b6e05ffcd9a77710f" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Contacts<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619bf5c1258c585232f3df2e81a6f5ac69c869a7" datatype="html">
+        <source>
+						The information provided by IamNotCrazyJustSick <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>(“we,” “us” or “our”) on IamNotCrazyJustSick.com (the “Site”)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> [and our mobile application] is for general informational <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> purposes only.
+					</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90f00814dff85fa418f0d10001dc2ef7e98319b6" datatype="html">
+        <source>© Copyright <x id="INTERPOLATION" equiv-text="{{today | date:&quot;yyyy&quot;}}"/> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Team-220<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> , All rights reserved</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/footer/footer.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe46ccaae902ce974e2441abe752399288298619" datatype="html">
+        <source>Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/languages-list/languages-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ffbb3a03519327fbf93ad5b8efa12d45b9137a1" datatype="html">
+        <source>Centers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92ea176313a35ba5dc812f0714d241c88ab37a9c" datatype="html">
+        <source><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>404<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> We are searching for the page you asked...
+	</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/error-pages/not-found/not-found.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="359755cd497f57f5795d950cf4a6dbb38f52c98a" datatype="html">
+        <source>
+      ... But we can not find it.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/navigation/error-pages/not-found/not-found.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="carousel-tooltip" datatype="html">
+        <source>If you want to continue scrolling, just click on the next point below the image.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description"> a tooltip to explain how to relaunch the play of carousel</note>
+        <note priority="1" from="meaning">Carousel playing tooltip </note>
+      </trans-unit>
+      <trans-unit id="fefbc52c0f3a46c9c074087a543e09875b3a6e13" datatype="html">
+        <source>Our Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71ce79d6bccb2aef1ef69d4215c4f7b689bf8884" datatype="html">
+        <source>“There is hope, even when your brain tells you there isn&apos;t.” We are here to help you to find and get it.
+        It&apos;s our vocation, it&apos;s our desire, it&apos;s our goal, the most important one.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="249b987b1fe6bd4821beeb6b60078544cea62d57" datatype="html">
+        <source>Fight Ignorance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4201b83d9d4f6b4dcff6d8b0a62d00755dae2101" datatype="html">
+        <source>
+				Inform people about Mental diseases and reduce bad popular believes about it.
+				Provide information in an appropriate form to destigmatize centers like Jamot Hospital
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2049c03c0e452488201ee44c2c14198653548f4c" datatype="html">
+        <source>READ MORE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a6f7ae2dbf9db13adfe31b0687bbb8dc8e43b91" datatype="html">
+        <source>Arouse Vocations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f77a8deee302e9f86c0b65ebfaf71cd84960422" datatype="html">
+        <source>Encourage young medical students to specialize in mental health. They well be able to have more impact that they can imagine.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a2bfc9ff6e4acb7d25e4169f36f0d929faa7e0e" datatype="html">
+        <source>Facilitate Access</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71da8909ef7515a3512ae5802cf554aa6401f319" datatype="html">
+        <source>
+				Help to collect informations (with security) about potential patient that help to identify their psychiatric emergencies (by scoring them)
+				and Refer potential patients based on their symptoms
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6f8eb41a7a3e3baa5527b88c3fc4b05e95ae933f" datatype="html">
+        <source>Initiate Diagnostic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d091e6579acead629ff6cbeeecc83d698732149" datatype="html">
+        <source>
+				Provide List of updated Centers (privates and public)/ Professionals (Psychologue, Psychiatre) and informations to contact them
+				Encourage people to engage in a mental disease diagnostic/care process
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/OurServices/ourservices.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25b95a028057d8814b28f6ab630d0464147efac0" datatype="html">
+        <source>Are you a medical student ? Do you want to become a super Hero?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/cta/cta.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6c8b9e0460a8d2092924e2cced3aaf93c3f4864" datatype="html">
+        <source>You can have a big impact in the live of people that really need the help of a great doctor like you..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/cta/cta.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f9c47eec8734f555ffa56fd8c058e75b4acef13" datatype="html">
+        <source>Know more...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/cta/cta.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c868e1c135f4a10294d979288e39bb8e7a3e88a5" datatype="html">
+        <source>What our Patients says</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/testimonials/testimonials.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5df294b91cf1667083178acf3f0701d80fdc02a1" datatype="html">
+        <source>It’s never overreacting to ask for what you want and need. They asked for our help and we helped them; and we are happy and proud of the result!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/testimonials/testimonials.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b934c17e6025b2c09a858c80c3f58c0943cf6a8" datatype="html">
+        <source>Read More</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/testimonials/testimonials.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2289acb50f3e611b03c9c9333e4179b4466daf92" datatype="html">
+        <source>Send Us An Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58da0a167cc19c731158ad63e2d13d809da1097a" datatype="html">
+        <source>“The problem with having problems is that ‘someone’ always has it worse.” So Don&apos;t be shy, let us know yours.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b752f143ab30faa45a2679b5e7a28bbf3fb246d" datatype="html">
+        <source>Name is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a69cf8e716fe0458fffe8b8a67948dfeb2b3eb6" datatype="html">
+        <source>Invalid Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d5019bec62f85514a65c0c576cf3f09fa8f50a8" datatype="html">
+        <source>Subject is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3c6e070aef7876e94c9e9316ee6d9865c12f579" datatype="html">
+        <source>Message is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ef6078f68c332d9b84d7e81cf631a8ed16fb817" datatype="html">
+        <source><x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>Send<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/contact/contact.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ca707824ab93066c7d9b44e1b8bf216725c2c22" datatype="html">
+        <source>Filter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-list/centers-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-list/professionals-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73c737e6475dad13f470e9f57064df6bfe011e2d" datatype="html">
+        <source>Nothing to show here for now! Please, come back later.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-list/centers-list.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-list/professionals-list.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3137d67bb771eeb9ae636670d73bd706258ad1a7" datatype="html">
+        <source> Description </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-list/centers-list.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-list/professionals-list.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e9576f5bcce1a8bb67cd0614225d1e16b382e6a" datatype="html">
+        <source> Name and Picture </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-list/centers-list.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-list/professionals-list.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66653045c0650afb3f7b14fd8c6df894badc14ea" datatype="html">
+        <source>
+		Nothing to show here for now! Please, come back later.
+	</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-grid/centers-grid.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-grid/professionals-grid.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca19982bf8f5f491572a07910699b4b98e6bda16" datatype="html">
+        <source>Type: <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="INTERPOLATION" equiv-text="{{ center.type }}"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-grid/centers-grid.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d85e06a1bd93847545c6df323cba6d217b4c7996" datatype="html">
+        <source>
+		Mental Health Centers
+	  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-header/centers-header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed89da02c42a25de02d4e045398de4cd4cbfaf7a" datatype="html">
+        <source>You’re not a label, or a number. That’s why effective mental health treatment should always be tailored to you.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-header/centers-header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ce0de9b38c4a6183215f95fb4367f364ec06a85" datatype="html">
+        <source>We are delighted to have partnered with Newcastle Premier Health to bring our unrivalled expertise and high success rate with repetitive Transcranial Magnetic Stimulation (rTMS) treatment for depression to the Newcastle area.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/centers/centers-header/centers-header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb60f1090750c9f6ba29ca9ae9b5958820beba52" datatype="html">
+        <source> No. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-list/professionals-list.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46ccad592a0a19186f58669e5195d4ae99d824a4" datatype="html">
+        <source>Speciality: <x id="INTERPOLATION" equiv-text="{{ professional.speciality }}"/> | Type: <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ professional.type }}"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-grid/professionals-grid.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="115403223e1e9e974875858643416683bce7ccc9" datatype="html">
+        <source>
+		Mental Health Professionals
+	  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-header/professionals-header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb3f90dd59ea3ffc3a94d3c42409e37d85aeba3c" datatype="html">
+        <source>Finding the right mental health professional can help you take control of any issue in your life.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-header/professionals-header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c167484404c2363d88c71e5f49796aa773de65a" datatype="html">
+        <source>
+		Getting help for mental, emotional, spiritual, or relationship issues can be difficult.
+		We’ve pulled together the basic information you need to find a mental health professionals. Keep reading to learn who can help you.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/professionals/professionals-header/professionals-header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a370f92d2b71b014795662d1af45dd4bc0a951f0" datatype="html">
+        <source>
+		<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>In Maintenance<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> This feature are not yet fully implemented...
+	</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-account/my-account.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="897c3e5b96ad3402afe50da8c2a7973ba672c581" datatype="html">
+        <source>
+      ... Please come back here in two weeks.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-account/my-account.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58e7327647c2e74dba56cd88eda7fa53272fbaed" datatype="html">
+        <source>Center Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c4c080864b313cfdff5fdea6aae5da276246d99" datatype="html">
+        <source>Public</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddd8a4986d2d1717a274a5a0fbed04988a819e69" datatype="html">
+        <source>Private</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed31c09fd77c36238c13d83635f3fe5294c733d2" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec984ab36f1da5f75ba43f9bd4b866ca9c7e6493" datatype="html">
+        <source>Email Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afb605e735bef0cdd46dbff3c3d2be15960cdc2b" datatype="html">
+        <source>Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bbef51475a30f422b4c08d3b26b9d1f03f36b53e" datatype="html">
+        <source>Phone Numbers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/center/center-details/center-details.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

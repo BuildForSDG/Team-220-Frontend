@@ -1,8 +1,8 @@
 <section id="contact-section" class="home-section" [ngClass]="{'light-gray': backgroundGray}">
   <div class="container">
     <div class="section-header">
-      <h2>Send Us An Email</h2>
-      <p>“The problem with having problems is that ‘someone’ always has it worse.” So Don't be shy, let us know yours.</p>
+      <h2 i18n>Send Us An Email</h2>
+      <p i18n>“The problem with having problems is that ‘someone’ always has it worse.” So Don't be shy, let us know yours.</p>
     </div>
     <form>
       <div>
@@ -10,29 +10,29 @@
             <mat-form-field class="full-width">
               <input matInput name="name"  placeholder="Your Name">
             </mat-form-field>
-            <small *ngIf="contactForm.controls.name.touched && contactForm.controls.name.errors?.required" class="form-error-msg">Name is required</small>
+            <small *ngIf="contactForm.controls.name.touched && contactForm.controls.name.errors?.required" class="form-error-msg" i18n>Name is required</small>
           </div>
           <div>
             <mat-form-field class="full-width">
               <input matInput name="email" placeholder="Your Email">
             </mat-form-field>
-            <small *ngIf="contactForm.controls.email.touched && contactForm.controls.email.errors?.email" class="form-error-msg">Invalid Email</small>
+            <small *ngIf="contactForm.controls.email.touched && contactForm.controls.email.errors?.email" class="form-error-msg" i18n>Invalid Email</small>
           </div>
           <div>
             <mat-form-field class="full-width">
               <input matInput name="subject"  placeholder="Subject">
             </mat-form-field>
-            <small *ngIf="contactForm.controls.subject.touched && contactForm.controls.subject.errors?.required" class="form-error-msg">Subject is required</small>
+            <small *ngIf="contactForm.controls.subject.touched && contactForm.controls.subject.errors?.required" class="form-error-msg" i18n>Subject is required</small>
           </div>
           <div>
             <mat-form-field class="full-width">
               <textarea matInput row="8" name="message" placeholder="Message"></textarea>
             </mat-form-field>
-            <small *ngIf="contactForm.controls.message.touched && contactForm.controls.message.errors?.required" class="form-error-msg">Message is required</small>
+            <small *ngIf="contactForm.controls.message.touched && contactForm.controls.message.errors?.required" class="form-error-msg" i18n>Message is required</small>
           </div>
 
         <div>
-          <button mat-fab color="primary" [disabled]="!contactForm.valid" aria-label="Send Email"><mat-icon>send</mat-icon></button>
+          <button mat-fab color="primary" [disabled]="!contactForm.valid" aria-label="Send Email" i18n><mat-icon>Send</mat-icon></button>
         </div>
       </div>
     </form>
