@@ -1,8 +1,12 @@
-.center-card {
-	margin: 2%;
+.docimage {
+	margin: 0%;
+	width: 100%;
+	max-width: 400px;
+	max-height: 220px;
+	object-fit: cover;
   }
 
-  .center-image {
+  .author-image {
 	background-size: cover;
   }
   button {

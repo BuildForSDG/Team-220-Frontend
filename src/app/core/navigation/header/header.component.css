@@ -4,7 +4,7 @@
 	margin: 0;
 }
 
-.mat-button.mat-button-base.active {
+.mat-button.active {
 	color: yellow;
 }
 

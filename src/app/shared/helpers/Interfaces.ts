@@ -55,6 +55,7 @@ export interface Professional {
 	first_name: string;
 	last_name: string;
 	type: string;
+	speciality: string;
 	image: string;
 	description: string;
 	location: string;
