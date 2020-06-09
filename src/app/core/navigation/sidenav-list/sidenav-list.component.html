@@ -1,14 +1,24 @@
 <mat-nav-list>
-    <a (click)="onSidenavClose()" mat-list-item>
-        <mat-icon>close</mat-icon> <span class="nav-caption" i18n='Close|Close text@@close-text'> Close</span> </a>
-    <a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/centers']">
-        <mat-icon>local_hospital</mat-icon> <span class="nav-caption" i18n> Centers </span> </a>
-    <a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/psychatricemergencies']">
-        <mat-icon>people</mat-icon> <span class="nav-caption" i18n> Psychatric Emergencies </span> </a>
-    <a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/professionals']">
-        <mat-icon>category</mat-icon> <span class="nav-caption" i18n> Professionals </span> </a>
-    <a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/testimonies']">
-        <mat-icon>format_quote</mat-icon> <span class="nav-caption" i18n> Testimonies </span> </a>
-		<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/myaccount']">
-			<mat-icon>person</mat-icon> <span class="nav-caption" i18n> My Account </span> </a>
+	<a (click)="onSidenavClose()" mat-list-item>
+		<mat-icon>close</mat-icon> <span class="nav-caption" i18n='Close|Close text@@close-text'> Close</span>
+	</a>
+	<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/centers']">
+		<mat-icon>local_hospital</mat-icon> <span class="nav-caption" i18n> Centers </span>
+	</a>
+	<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/psychatricemergencies']">
+		<mat-icon>people</mat-icon> <span class="nav-caption" i18n> Psychatric Emergencies </span>
+	</a>
+	<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/professionals']">
+		<mat-icon>category</mat-icon> <span class="nav-caption" i18n> Professionals </span>
+	</a>
+	<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/testimonies']">
+		<mat-icon>format_quote</mat-icon> <span class="nav-caption" i18n> Testimonies </span>
+	</a>
+	<a (click)="onSidenavClose()" mat-list-item routerLinkActive="active" [routerLink]="['/myaccount']">
+		<mat-icon>person</mat-icon> <span class="nav-caption" i18n> My Account </span>
+	</a>
+	<a mat-list-item>
+		<mat-icon>language</mat-icon>&nbsp;&nbsp;
+		<app-language-toggle></app-language-toggle>
+	</a>
 </mat-nav-list>

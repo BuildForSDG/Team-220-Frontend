@@ -1,40 +1,54 @@
 <mat-toolbar color="primary">
-    <span i18n='Site title | Name of the site@@site-header'><a [routerLink]="['/']" >
-		<figure>
-			<img id="logo" src="/assets/icons/icon-128x128.png" alt="Logo of IamNotCrazyJustSick app" srcset="/assets/icons/icon-512x512.png 1600w, /assets/icons/icon-384x384.png 1000w, /assets/icons/icon-192x192.png 800w, /assets/icons/icon-152x152.png 500w">
-		</figure>
-	</a></span>
+	<span i18n='Site title | Name of the site@@site-header'><a [routerLink]="['/']">
+			<figure>
+				<img id="logo" src="/assets/icons/icon-128x128.png" alt="Logo of IamNotCrazyJustSick app"
+					srcset="/assets/icons/icon-512x512.png 1600w, /assets/icons/icon-384x384.png 1000w, /assets/icons/icon-192x192.png 800w, /assets/icons/icon-152x152.png 500w">
+			</figure>
+		</a></span>
 
-    <span class="fill-remaining-space"></span>
+	<span class="fill-remaining-space"></span>
 
-    <div fxShow="true" fxHide.lt-md="true">
-        <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-        <ul fxLayout fxLayoutGap="20px" class="navigation-items">
-            <li>
-                <a mat-button routerLinkActive="active" [routerLink]="['/centers']" i18n>
-                    <mat-icon>local_hospital</mat-icon> Centers </a>
-            </li>
-            <li>
-                <a mat-button routerLinkActive="active" [routerLink]="['/professionals']" i18n>
-                    <mat-icon>people</mat-icon> Professionals</a>
-            </li>
-            <li>
-                <a mat-button routerLinkActive="active" [routerLink]="['/psychatricemergencies']" i18n>
-                    <mat-icon>category</mat-icon> Psychatric Emergencies  </a>
-            </li>
-            <li i18n>
-                <a mat-button routerLinkActive="active" [routerLink]="['/testimonies']">
-                    <mat-icon>format_quote</mat-icon> Testimonies </a>
+	<div fxShow="true" fxHide.lt-md="true">
+		<!-- The following menu items will be hidden on both SM and XS screen sizes -->
+		<ul fxLayout fxLayoutGap="20px" class="navigation-items">
+			<li>
+				<a mat-button routerLinkActive="active" [routerLink]="['/centers']" i18n>
+					<mat-icon>local_hospital</mat-icon> Centers
+				</a>
+			</li>
+			<li>
+				<a mat-button routerLinkActive="active" [routerLink]="['/professionals']" i18n>
+					<mat-icon>people</mat-icon> Professionals
+				</a>
+			</li>
+			<li>
+				<a mat-button routerLinkActive="active" [routerLink]="['/psychatricemergencies']" i18n>
+					<mat-icon>category</mat-icon> Psychatric Emergencies
+				</a>
 			</li>
 			<li i18n>
-                <a mat-button id="dashboard-topbtn" class="hometop-btn icon-button" routerLinkActive="active" [routerLink]="['/myaccount']"><mat-icon>person</mat-icon><strong> My Account</strong></a>
+				<a mat-button routerLinkActive="active" [routerLink]="['/testimonies']">
+					<mat-icon>format_quote</mat-icon> Testimonies
+				</a>
 			</li>
-        </ul>
-    </div>
+			<li i18n>
+				<a mat-button id="dashboard-topbtn" class="hometop-btn icon-button" routerLinkActive="active"
+					[routerLink]="['/myaccount']">
+					<mat-icon>person</mat-icon><strong> My Account</strong>
+				</a>
+			</li>
+			<li>
+				<a mat-button>
+					<mat-icon>language</mat-icon>&nbsp;
+					<app-language-toggle></app-language-toggle>
+				</a>
+			</li>
+		</ul>
+	</div>
 
-    <div fxShow="true" fxHide.gt-sm="true">
-        <button mat-icon-button (click)="onToggleSidenav()" aria-label="Open menu">
-            <mat-icon>menu</mat-icon>
-          </button>
-    </div>
+	<div fxShow="true" fxHide.gt-sm="true">
+		<button mat-icon-button (click)="onToggleSidenav()" aria-label="Open menu">
+			<mat-icon>menu</mat-icon>
+		</button>
+	</div>
 </mat-toolbar>
