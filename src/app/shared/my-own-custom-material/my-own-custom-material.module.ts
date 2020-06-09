@@ -16,6 +16,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatRadioModule } from '@angular/material/radio';
 
 import { NgModule } from '@angular/core';
 
@@ -39,7 +41,9 @@ import { NgModule } from '@angular/core';
 		MatFormFieldModule,
 		MatInputModule,
 		MatSelectModule,
-		MatProgressBarModule
+		MatProgressBarModule,
+		MatTabsModule,
+		MatRadioModule
 	],
 	exports: [
 		MatToolbarModule,
@@ -58,7 +62,9 @@ import { NgModule } from '@angular/core';
 		MatFormFieldModule,
 		MatInputModule,
 		MatSelectModule,
-		MatProgressBarModule
+		MatProgressBarModule,
+		MatTabsModule,
+		MatRadioModule
 	]
 })
 export class MyOwnCustomMaterialModule {}

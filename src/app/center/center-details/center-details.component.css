@@ -1,0 +1,28 @@
+.center-card {
+	margin: 2%;
+  }
+
+  .center-image {
+	background-size: cover;
+  }
+  button {
+	margin: 2px;
+  }
+  p {
+	padding-top: 3%;
+	font-style: italic;
+  }
+  .alignRight {
+	position: absolute;
+	right: 0px;
+  }
+.mat-card-image {
+	margin: 0;
+}
+.mat-form-field .mat-radio-button {
+	margin:2%;
+  }
+
+.mat-form-field {
+	width: 100%;
+}

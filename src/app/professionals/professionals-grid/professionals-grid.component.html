@@ -1,5 +1,5 @@
 <div class="row">
-	<p class="flow-text" *ngIf="paginatedProfessionals == undefined" i18n>
+	<p class="flow-text" *ngIf="paginatedProfessionals == undefined || paginatedProfessionals.length == 0" i18n>
 		Nothing to show here for now! Please, come back later.
 	</p>
 	<div *ngFor="let professional of paginatedProfessionals" class="col s12 m6 l4 xl3">

@@ -13,7 +13,6 @@ import { FooterComponent } from './navigation/footer/footer.component';
 import { NotFoundComponent } from './navigation/error-pages/not-found/not-found.component';
 import { AddHeaderInterceptor } from './interceptors/add-header.interceptor';
 import { LogResponseInterceptor } from './interceptors/log-response.interceptor';
-import { CacheInterceptor } from './interceptors/cache.interceptor';
 import { LanguageToggleComponent } from './navigation/language-toggle/language-toggle.component';
 
 @NgModule({
