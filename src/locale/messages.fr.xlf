@@ -462,7 +462,7 @@
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0c31b979e2e828dec4f5e596f85d03fd7dec1651" datatype="html">
+      <trans-unit id="2ef6078f68c332d9b84d7e81cf631a8ed16fb817" datatype="html">
         <source><x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>Send<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/></source>
         <target><x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>Envoyé<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/></target>
         <context-group purpose="location">
@@ -610,7 +610,7 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2da0a592340a3341c8f886262ced04468a4ef3b9" datatype="html">
+      <trans-unit id="1c167484404c2363d88c71e5f49796aa773de65a" datatype="html">
         <source>
 		Getting help for mental, emotional, spiritual, or relationship issues can be difficult.
 		We’ve pulled together the basic information you need to found a mental health professionals. Keep reading to learn who can help you.</source>
