@@ -2,7 +2,9 @@ import { Component, OnInit, OnChanges, Input, ViewChild, SimpleChanges } from '@
 import { Center } from 'src/app/shared/helpers/Interfaces';
 import { PaginatorConfigurable } from 'src/app/shared/helpers/Classes';
 import { environment } from 'src/environments/environment';
-import { MatTableDataSource, MatPaginator, MatSort } from '@angular/material';
+import { MatTableDataSource } from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 
 @Component({
 	selector: 'app-centers-list',
