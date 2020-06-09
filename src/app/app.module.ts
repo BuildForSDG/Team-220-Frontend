@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { LandingModule } from './landing/landing.module';
 import { CentersModule } from './centers/centers.module';
+import { ProfessionalsModule } from './professionals/professionals.module';
+import { MyAccountModule } from './my-account/my-account.module';
 
 @NgModule({
 	declarations: [AppComponent, LayoutComponent],
@@ -21,6 +23,8 @@ import { CentersModule } from './centers/centers.module';
 		SharedModule,
 		LandingModule,
 		CentersModule,
+		ProfessionalsModule,
+		MyAccountModule,
 
 		HttpClientModule,
 		AppRoutingModule,

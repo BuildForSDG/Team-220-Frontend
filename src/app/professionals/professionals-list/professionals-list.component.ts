@@ -1,5 +1,5 @@
 import { Component, OnInit, OnChanges, Input, ViewChild, SimpleChanges } from '@angular/core';
-import { Center } from 'src/app/shared/helpers/Interfaces';
+import { Professional } from 'src/app/shared/helpers/Interfaces';
 import { PaginatorConfigurable } from 'src/app/shared/helpers/Classes';
 import { environment } from 'src/environments/environment';
 import { MatTableDataSource } from '@angular/material/table';
@@ -7,12 +7,12 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 
 @Component({
-	selector: 'app-centers-list',
-	templateUrl: './centers-list.component.html',
-	styleUrls: ['./centers-list.component.css']
+	selector: 'app-professionals-list',
+	templateUrl: './professionals-list.component.html',
+	styleUrls: ['./professionals-list.component.css']
 })
-export class CentersListComponent implements OnInit, OnChanges {
-	@Input() centers: Center[];
+export class ProfessionalsListComponent implements OnInit, OnChanges {
+	@Input() professionals: Professional[];
 
 	@Input() paginatorConfigurable: PaginatorConfigurable;
 
@@ -20,7 +20,7 @@ export class CentersListComponent implements OnInit, OnChanges {
 
 	isConnected: boolean;
 
-	dataSource: MatTableDataSource<Center>;
+	dataSource: MatTableDataSource<Professional>;
 
 	@ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
 
@@ -30,11 +30,11 @@ export class CentersListComponent implements OnInit, OnChanges {
 
 	ngOnInit(): void {
 		this.displayedColumns = ['id', 'name', 'description'];
-		this.isConnected = true;
+		this.isConnected = false;
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {
-		this.dataSource = new MatTableDataSource(this.centers);
+		this.dataSource = new MatTableDataSource(this.professionals);
 		this.dataSource.sort = this.sort;
 
 		this.paginator.length = this.paginatorConfigurable.length;
@@ -44,7 +44,7 @@ export class CentersListComponent implements OnInit, OnChanges {
 		this.dataSource.paginator = this.paginator;
 	}
 
-	applyFilter(filterValue: string) {
+	applyFilter(filterValue: string): void {
 		this.dataSource.filter = filterValue.trim().toLowerCase();
 	}
 }

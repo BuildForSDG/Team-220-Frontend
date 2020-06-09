@@ -27,13 +27,13 @@ export class DataService {
 			.pipe(catchError((err) => this.handleHttpError(err)));
 	}
 
-	getAllAuthors(): Observable<Professional[] | SimpleError> {
+	getAllProfessionals(): Observable<Professional[] | SimpleError> {
 		return this.http
 			.get<Professional[]>(this.toTheUrlOf('professionals'))
 			.pipe(catchError((err) => this.handleHttpError(err)));
 	}
 
-	getAuthorById(id: number): Observable<Professional | SimpleError> {
+	getProfessionalById(id: number): Observable<Professional | SimpleError> {
 		return this.http
 			.get<Professional>(this.toTheUrlOf('professionals', id))
 			.pipe(catchError((err) => this.handleHttpError(err)));

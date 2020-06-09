@@ -1,5 +1,6 @@
 /* eslint-disable max-classes-per-file */
-import { PageEvent } from '@angular/material';
+
+import { PageEvent } from '@angular/material/paginator';
 
 export class Helper {}
 export class SimpleError {
@@ -36,7 +37,7 @@ export class PaginatorConfigurable {
 		this.pageEvent.length = length;
 	}
 
-	setPageSizeOptions(setPageSizeOptionsInput: string) {
+	setPageSizeOptions(setPageSizeOptionsInput: string): void {
 		this.pageSizeOptions = setPageSizeOptionsInput.split(',').map((str) => +str);
 	}
 }

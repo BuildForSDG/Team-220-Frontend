@@ -1,15 +1,15 @@
 import { Component, OnInit, Input, SimpleChanges, OnChanges } from '@angular/core';
-import { Center } from 'src/app/shared/helpers/Interfaces';
+import { Professional } from 'src/app/shared/helpers/Interfaces';
 import { PaginatorConfigurable } from 'src/app/shared/helpers/Classes';
 import { environment } from 'src/environments/environment';
 
 @Component({
-	selector: 'app-centers-grid',
-	templateUrl: './centers-grid.component.html',
-	styleUrls: ['./centers-grid.component.css']
+	selector: 'app-professionals-grid',
+	templateUrl: './professionals-grid.component.html',
+	styleUrls: ['./professionals-grid.component.css']
 })
-export class CentersGridComponent implements OnInit, OnChanges {
-	@Input() centers: Center[];
+export class ProfessionalsGridComponent implements OnInit, OnChanges {
+	@Input() professionals: Professional[];
 
 	@Input() paginatorConfigurable: PaginatorConfigurable;
 
@@ -17,11 +17,11 @@ export class CentersGridComponent implements OnInit, OnChanges {
 
 	isConnected: boolean;
 
-	paginatedCenters: Center[];
+	paginatedProfessionals: Professional[];
 
 	ngOnInit(): void {
 		this.apiBaseUrl = environment.apiBaseUrl;
-		this.isConnected = true;
+		this.isConnected = false;
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {
@@ -33,8 +33,8 @@ export class CentersGridComponent implements OnInit, OnChanges {
 	}
 
 	paginateData(): void {
-		if (this.centers !== undefined) {
-			this.paginatedCenters = this.centers.slice(
+		if (this.professionals !== undefined) {
+			this.paginatedProfessionals = this.professionals.slice(
 				this.paginatorConfigurable.pageEvent.pageIndex * this.paginatorConfigurable.pageEvent.pageSize,
 				(this.paginatorConfigurable.pageEvent.pageIndex + 1) * this.paginatorConfigurable.pageEvent.pageSize
 			);
