@@ -39,6 +39,12 @@ export class DataService {
 			.pipe(catchError((err) => this.handleHttpError(err)));
 	}
 
+	getProfessionalsByCenterId(id: number): Observable<Professional | SimpleError> {
+		return this.http
+			.get<Professional>(`${this.apiBaseUrl}/centers/${id}/professionals`)
+			.pipe(catchError((err) => this.handleHttpError(err)));
+	}
+
 	handleHttpError(err: HttpErrorResponse): Observable<SimpleError> {
 		const dataError = new SimpleError((this.count += 1), err.statusText, 'An error occured while retrieving data');
 		return throwError(dataError);

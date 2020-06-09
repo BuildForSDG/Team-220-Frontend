@@ -15,6 +15,7 @@ import { SharedModule } from '../shared/shared.module';
 		ProfessionalsGridComponent,
 		ProfessionalsHeaderComponent
 	],
-	imports: [CommonModule, ProfessionalsRoutingModule, SharedModule]
+	imports: [CommonModule, ProfessionalsRoutingModule, SharedModule],
+	exports: [ProfessionalsComponent]
 })
 export class ProfessionalsModule {}

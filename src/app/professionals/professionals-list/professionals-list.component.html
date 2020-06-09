@@ -3,7 +3,7 @@
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Enter a term">
     <mat-icon matSuffix>search</mat-icon>
 </mat-form-field>
-<p class="flow-text" *ngIf="professionals==undefined" i18n>Nothing to show here for now! Please, come back later.</p>
+<p class="flow-text" *ngIf="professionals==undefined  || professionals.length == 0" i18n>Nothing to show here for now! Please, come back later.</p>
 <table mat-table [dataSource]="dataSource" matSort>
 
     <!--- Note that these columns can be defined in any order.

@@ -13,6 +13,7 @@ import { LandingModule } from './landing/landing.module';
 import { CentersModule } from './centers/centers.module';
 import { ProfessionalsModule } from './professionals/professionals.module';
 import { MyAccountModule } from './my-account/my-account.module';
+import { CenterModule } from './center/center.module';
 
 @NgModule({
 	declarations: [AppComponent, LayoutComponent],
@@ -25,6 +26,7 @@ import { MyAccountModule } from './my-account/my-account.module';
 		CentersModule,
 		ProfessionalsModule,
 		MyAccountModule,
+		CenterModule,
 
 		HttpClientModule,
 		AppRoutingModule,

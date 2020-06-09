@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Professional } from '../shared/helpers/Interfaces';
 import { DisplayModeEnum } from '../shared/helpers/Enums';
 import { PaginatorConfigurable } from '../shared/helpers/Classes';
@@ -10,6 +10,8 @@ import { DataService } from '../core/services/data.service';
 	styleUrls: ['./professionals.component.css']
 })
 export class ProfessionalsComponent implements OnInit {
+	@Input() filteredProfessionals: Professional[];
+
 	professionals: Professional[];
 
 	displayMode: DisplayModeEnum;
@@ -23,7 +25,7 @@ export class ProfessionalsComponent implements OnInit {
 	ngOnInit(): void {
 		this.paginatorConfigurable = new PaginatorConfigurable();
 		this.dataService.getAllProfessionals().subscribe((data: any) => {
-			this.professionals = data;
+			this.professionals = this.filteredProfessionals !== undefined ? this.filteredProfessionals : data;
 			this.paginatorConfigurable = new PaginatorConfigurable(this.professionals.length, 4, [
 				4,
 				8,
