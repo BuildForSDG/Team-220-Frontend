@@ -17,9 +17,11 @@ export class LanguageToggleComponent implements OnInit, AfterViewInit {
 	constructor(private router: Router) {}
 
 	// eslint-disable-next-line @typescript-eslint/no-empty-function
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.firstLanguage = 'en';
+	}
 
-	ngAfterViewInit() {
+	ngAfterViewInit(): void {
 		const parts = window.location.href.split('/');
 		if (parts[3].length !== 2) {
 			this.firstLanguage = 'en';
