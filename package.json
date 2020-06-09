@@ -4,12 +4,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:prod": "ng build --prod && lite-server --baseDir dist/IamNotCrazyJustSick",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "ESlint": "eslint \"/**/*.{js,ts}\" --quiet --fix",
-    "e2e": "ng e2e"
+        "start:fr": "ng serve --configuration=fr",
+        "build": "ng build",
+        "build:fr": "ng build --configuration=fr",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "int-extract": "ng xi18n --output-path src/locale",
+        "build-locale:en": "ng build --prod --aot",
+        "build-locale:fr": "ng build --aot --prod --i18n-locale fr --i18n-format xlf --i18n-file src/locale/messages.fr.xlf --output-path=dist/QAJ-APP-FE/fr --baseHref /fr/",
+        "build-locale": "npm run build-locale:en && npm run build-locale:fr"
   },
   "private": true,
   "dependencies": {

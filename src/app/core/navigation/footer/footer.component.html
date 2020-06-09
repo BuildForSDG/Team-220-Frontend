@@ -3,15 +3,15 @@
 		<mat-toolbar-row  class="foot">
 			<div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="nowrap">
 				<div fxFlex="40" class="footer-box">
-					<h5 class="footer-box-title"><b>About Us</b></h5>
-					<p class="mat-body-2">
+					<h5 class="footer-box-title" i18n><b>About Us</b></h5>
+					<p class="mat-body-2" i18n>
 						<strong>I am Not Crazy Just Sick</strong> Because <br />Mental Sickness<br />
 						is just sickness and can be healed!
 					</p>
-					<button mat-raised-button color="accent">Contact Us</button>
+					<button mat-raised-button color="accent" i18n>Contact Us</button>
 				</div>
 				<div fxFlex="30" class="footer-box">
-					<h5 class="footer-box-title"><b>Contact</b></h5>
+					<h5 class="footer-box-title" i18n><b>Contacts</b></h5>
 					<mat-list>
 						<mat-list-item>
 							<mat-icon mat-list-icon color="accent">email</mat-icon>
@@ -28,7 +28,7 @@
 				</div>
 				<div fxFlex="30" class="footer-box">
 					<h5 class="footer-box-title"><b>Disclaimer</b></h5>
-					<p class="mat-body-2">
+					<p class="mat-body-2" i18n>
 						The information provided by IamNotCrazyJustSick <br>(“we,” “us” or “our”) on IamNotCrazyJustSick.com (the “Site”)<br> [and our mobile application] is for general informational <br> purposes only.
 					</p>
 					<div class="socials pt-1">
@@ -43,7 +43,7 @@
 		</mat-toolbar-row>
 		<mat-toolbar-row class="mat-elevation-z8">
 			<br>
-            <p class="mat-body center" i18n='copy-right|copy-right section of footer@@copy-right'>&copy; Copyright {{today | date:"yyyy"}} <strong>Team-220</strong> , All rights reserved</p>
+            <p class="mat-body center" i18n>&copy; Copyright {{today | date:"yyyy"}} <strong>Team-220</strong> , All rights reserved</p>
         </mat-toolbar-row>
 	</mat-toolbar>
 </footer>
